@@ -24,7 +24,7 @@ GENERATE_PP = os.getenv('GENERATE_PP', 'false').lower() == 'true'
 DISABLE_URL_CHECK = os.getenv('DISABLE_URL_CHECK', 'false').lower() == 'true'
 BASE_PATH = os.getenv('BASE_PATH', '/')
 
-special_characters = "!£$%^&*(){},./;:#*-+"
+special_characters = "!$%^&*(){},./;:#*-+"
 
 homoglyphs = {'o', '0', 'O', 'l', '1', 'I'}
 
